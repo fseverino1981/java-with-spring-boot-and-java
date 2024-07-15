@@ -1,11 +1,10 @@
+server:
+  port: 8888
 cors:
-  originPatterns: http://localhost:3000,http://localhost:8080,https://flavio.com.br
+  originsPatterns: http://localhost:3000,http://localhost:8080,https://flavio.com.br
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/dbrest?useTimeZone=true&severTimezone=UTC
-    username: root
-    password: root
   jpa:
     hibernate:
       ddl-auto: none
